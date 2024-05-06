@@ -1,4 +1,4 @@
-// https://assets.codepen.io/16425/web-3-spring-2024-roster.json
+// Data: https://assets.codepen.io/16425/web-3-spring-2024-roster.json
 
 // Data source
 const dataSource = 'https://assets.codepen.io/16425/web-3-spring-2024-roster.json';

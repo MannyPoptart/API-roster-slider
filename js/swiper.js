@@ -1,5 +1,5 @@
 // Initalize Swiper
-var swiper = new Swiper(".container", {
+var swiper = new Swiper(".swiper-wrapper", {
 
   // navigation
    navigation: {
