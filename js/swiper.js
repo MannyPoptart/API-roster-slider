@@ -1,30 +1,31 @@
-// Initalize Swiper
-var swiper = new Swiper(".swiper-wrapper", {
+// instantiate a new instance of Swiper
+var swiper = new Swiper(".container", {
+
+  slidesPerView: 1,
 
   // navigation
-   navigation: {
-       nextEl: ".swiper-button-next",
-       prevEl: ".swiper-button-prev",
-   },
-   
-    // pagination  
-   pagination: {
-       el: ".swiper-pagination", 
-       clickable: true,
-   },
-  
-   //  autoplay
-   autoplay: {
-       delay: 1000,
-       disableOnInteraction: false,
-   }, 
-
-   //  loop
-   loop: true,
-
-   // keyboard
-   keyboard: {
-    enabled: true,
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev"
   },
 
+  // loop
+  loop: true,
+
+  // pagination
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true
+  },
+
+  //  keyboard nav
+  keyboard: {
+    enabled: true
+  },
+
+  //  autoplay
+  autoplay: {
+    delay: 1000,
+    disableOnInteraction: false
+  }
 });

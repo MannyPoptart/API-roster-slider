@@ -12,7 +12,7 @@ fetch( dataSource )
   .then( response => response.json() )
   .then( students => { 
 
-    // console.log(students);
+    console.log(students);
      
     students.forEach( (student) => {
       
